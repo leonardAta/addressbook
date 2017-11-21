@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.hidden{
+	display: none;
+}
+body{
+	padding: 20px;
+}
+header{
+	margin-bottom: 30px;
+}
+ul li{
+	list-style-type: none;
+	padding: 5px;
+}
+input{
+	border: none;
+	margin: 10px 10px 10px 0;
+	padding: 5px;
+	border-bottom: 1px dashed #ababab;
+}
+ul.input-header input{
+	border: none;
+	margin: 0;
+	font-size: 95%;
+	font-weight: bold;
+}
+input[type='button'].btn-close{
+	color: red;
+	cursor: pointer;
+	padding: 1px 10px;
+	font-weight: bold;
+	border: none;
+}
+input[type='button'].btn-add{
+	color: green;
+	cursor: pointer;
+	padding: 5px 10px;
+	font-weight: bold;
+	border: none;
+}
+ul.add-panel li
+input:not(.btn-add){
+	background-color: rgba(0,0,0,0.13);
+	font-size: 100%;
+	padding: 7px;
+	border: none;
+}
+ul.add-panel li
+input::-webkit-input-placeholder{
+	font-weight: 300;
+	font-style: italic;
+}
